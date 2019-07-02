@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#138c46</color>
+    <color name="colorPrimaryDark">#138c46</color>
+   <!-- <color name="colorPrimaryDark">#1bab58</color>-->
+  <!--  <color name="colorPrimaryDark">#01DC5E</color>-->
+  <!--  <color name="colorPrimaryDark">#0faf53</color>-->
+    <color name="red">#FF0000</color>
+    <color name="colorAccent">#4c4c4c</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="gray">#d3d3d3</color>
+
+    <color name="colorPrimarya">#3F51B5</color>
+    <color name="colorPrimaryDarkb">#303F9F</color>
+    <color name="colorAccentd">#FF4081</color>
+    <color name="album_titlee">#4c4c4c</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lightgray">#cac8c8</color>
+   <!-- <color name="lightgray">#ededed</color>-->
+</resources>

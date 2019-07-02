@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/studententry"
+            android:title="New Student Entry" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/allbus"
+            android:title="New Bus Entry" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/taxi"
+            android:title="New Taxi Entry" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/allstudent"
+            android:title="All Student" />
+        <item
+            android:id="@+id/nav_manage1"
+            android:icon="@mipmap/allschoolbus"
+            android:title="All Bus" />
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@mipmap/alltaxi"
+            android:title="All Taxi" />
+        <item
+            android:id="@+id/nav_manage3"
+            android:icon="@mipmap/checkin"
+            android:title="Student Check In" />
+        <item
+            android:id="@+id/nav_manage4"
+            android:icon="@mipmap/checkout"
+            android:title="Student Check Out" />
+        <item
+            android:id="@+id/nav_manage5"
+            android:icon="@mipmap/leaveearly"
+            android:title="Leave Early" />
+        <item
+            android:id="@+id/nav_manage6"
+            android:icon="@mipmap/report"
+            android:title="Report" />
+
+    </group>
+
+
+
+</menu>

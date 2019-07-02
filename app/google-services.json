@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166655450250",
+    "firebase_url": "https://studentattendance-cc9f3.firebaseio.com",
+    "project_id": "studentattendance-cc9f3",
+    "storage_bucket": "studentattendance-cc9f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166655450250:android:611e5c69c5ce061f",
+        "android_client_info": {
+          "package_name": "com.example.kavita.studentattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166655450250-163ka2u2nm3p0207emsl5fv4ajlufp1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kavita.studentattendance",
+            "certificate_hash": "45510263ac2c678ae8c9b5496715584c26fa0683"
+          }
+        },
+        {
+          "client_id": "166655450250-qft8i3svhrmtkp2k8b84uohets7hldia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnmfMqgazqsEo4QyO86vNAfp9LDIWf71w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166655450250-qft8i3svhrmtkp2k8b84uohets7hldia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

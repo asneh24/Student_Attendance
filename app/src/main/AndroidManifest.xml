@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sneh.studentattendance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.example.sneh.studentattendance.Activity.StudentAttendance"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.Splashscreen"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.LoginActivity"
+            android:label="@string/Login" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.RegisterActivity"
+            android:label="@string/Register"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.LoginActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.DashboardActivity"
+            android:label="@string/student_attendance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.StudententryActivity"
+            android:label="Student Entry"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.VehicleActivity"
+            android:label="@string/bus_entry"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.TimenoteActivity"
+            android:label="Time notedown"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.VehicleupdateActivity"
+            android:label="Vehicle Update"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.TimenoteActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.OuttimeActivity"
+            android:label="Out Time"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.TimenoteActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.ReportActivity"
+            android:label=" Report"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.StudentinformationActivity"
+            android:label="@string/Studentinformation"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.VehicleinformationActivity"
+            android:label="@string/Businformation"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.StudentupdateActivity"
+            android:label="@string/student_update"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.StudentinformationActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.TaxiupdateActivity"
+            android:label="@string/vehicle_update"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.VehicleinformationActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.CheckinfetchActivity"
+            android:label="@string/Checkin"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.CheckoutfectchActivity"
+            android:label="@string/Checkout"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.ChangelanguageActivity"
+            android:label="Language" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.ForgotpasswordActivity"
+            android:label="@string/ForgotPassword"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.LoginActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.TaxientryActivity"
+            android:label="@string/taxi_entry"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.TaxiActivity"
+            android:label="@string/taxiinformation"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.CheckinActivity"
+            android:label="@string/Checkin"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.CheckoutActivity"
+            android:label="@string/Checkout"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.LeaveActivity"
+            android:label="@string/leave_early"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.LeavefectchActivity"
+            android:label="@string/leave_early"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.AbsentStudentListActivity"
+            android:label="@string/absent_student"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.AbsentActivity"
+            android:label="@string/absent_student"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.PresentListActivity"
+            android:label="@string/present_student"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.PresentActivity"
+            android:label="@string/present_student"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.AlonefetchActivity"
+            android:label="@string/student"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.AloneActivity"
+            android:label="@string/student"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.ComeFromBusListActivity"
+            android:label="@string/student_via_bus"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.ComeTaxiListActivity"
+            android:label="@string/student_via_taxi"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.LeaveEarlyListActivity"
+            android:label="@string/student_leave_early"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.LeaveReportActivity"
+            android:label="@string/student_leave_early"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.BusReportActivity"
+            android:label="@string/Student_Bus_Report"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.TaxiReportActivity"
+            android:label="@string/Student_Taxi_Report"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.FetchData"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.ReportActivity" />
+        <activity
+            android:name="com.example.sneh.studentattendance.Activity.CheckinvehicleActivity"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity android:name="com.example.sneh.studentattendance.Activity.CheckOutVehicleActivity"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+        <activity android:name="com.example.sneh.studentattendance.Activity.CheckEarlyVehicleActivity"
+            android:parentActivityName="com.example.sneh.studentattendance.Activity.DashboardActivity" />
+    </application>
+
+</manifest>

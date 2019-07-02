@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Activity.CheckinfetchActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date :- "
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+       />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/datee"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:layout_marginLeft="70dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:text="Time :- "
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/timee"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="255dp"
+        android:hint="Time"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtstd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/timee"/>
+
+    <TextView
+        android:id="@+id/txtallstd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtstd"/>
+
+    <CheckBox
+        android:id="@+id/checkboxallstd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtstd"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:checked="false"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerstudentlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/checkboxallstd"
+        android:layout_above="@+id/btnsubmit"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="Reset"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
